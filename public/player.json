@@ -1,0 +1,110 @@
+[
+  {
+    "playerId": 1,
+    "name": "Virat Kohli",
+    "country": "India",
+    "image": "https://i.imgpost.net/2025/03/05/oezs.png",
+    "role": "Batsman",
+    "battingBowlingType": "Right-hand bat / Right-arm medium",
+    "biddingPrice": 15000000
+  },
+  {
+    "playerId": 2,
+    "name": "MS Dhoni",
+    "country": "India",
+    "image": "https://i.imgpost.net/2025/03/05/oezs.png",
+    "role": "Wicketkeeper",
+    "battingBowlingType": "Right-hand bat / Right-arm medium",
+    "biddingPrice": 12000000
+  },
+  {
+    "playerId": 3,
+    "name": "Rohit Sharma",
+    "country": "India",
+    "image": "https://i.imgpost.net/2025/03/05/oezs.png",
+    "role": "Batsman",
+    "battingBowlingType": "Right-hand bat / Right-arm offbreak",
+    "biddingPrice": 14000000
+  },
+  {
+    "playerId": 4,
+    "name": "Jasprit Bumrah",
+    "country": "India",
+    "image": "https://i.imgpost.net/2025/03/05/oezs.png",
+    "role": "Bowler",
+    "battingBowlingType": "Right-hand bat / Right-arm fast",
+    "biddingPrice": 13000000
+  },
+  {
+    "playerId": 5,
+    "name": "Steve Smith",
+    "country": "Australia",
+    "image": "https://i.imgpost.net/2025/03/05/oezs.png",
+    "role": "Batsman",
+    "battingBowlingType": "Right-hand bat / Right-arm legbreak",
+    "biddingPrice": 11000000
+  },
+  {
+    "playerId": 6,
+    "name": "David Warner",
+    "country": "Australia",
+    "image": "https://i.imgpost.net/2025/03/05/oezs.png",
+    "role": "Batsman",
+    "battingBowlingType": "Left-hand bat / Right-arm medium",
+    "biddingPrice": 11500000
+  },
+  {
+    "playerId": 7,
+    "name": "Mitchell Starc",
+    "country": "Australia",
+    "image": "https://i.imgpost.net/2025/03/05/oezs.png",
+    "role": "Bowler",
+    "battingBowlingType": "Left-hand bat / Left-arm fast",
+    "biddingPrice": 12500000
+  },
+  {
+    "playerId": 8,
+    "name": "Kane Williamson",
+    "country": "New Zealand",
+    "image": "https://i.imgpost.net/2025/03/05/oezs.png",
+    "role": "Batsman",
+    "battingBowlingType": "Right-hand bat / Right-arm offbreak",
+    "biddingPrice": 10000000
+  },
+  {
+    "playerId": 9,
+    "name": "Trent Boult",
+    "country": "New Zealand",
+    "image": "https://i.imgpost.net/2025/03/05/oezs.png",
+    "role": "Bowler",
+    "battingBowlingType": "Left-hand bat / Left-arm fast-medium",
+    "biddingPrice": 9000000
+  },
+  {
+    "playerId": 10,
+    "name": "Ben Stokes",
+    "country": "England",
+    "image": "https://i.imgpost.net/2025/03/05/oezs.png",
+    "role": "All-rounder",
+    "battingBowlingType": "Left-hand bat / Right-arm fast-medium",
+    "biddingPrice": 13500000
+  },
+  {
+    "playerId": 11,
+    "name": "Joe Root",
+    "country": "England",
+    "image": "https://i.imgpost.net/2025/03/05/oezs.png",
+    "role": "Batsman",
+    "battingBowlingType": "Right-hand bat / Right-arm offbreak",
+    "biddingPrice": 10500000
+  },
+  {
+    "playerId": 12,
+    "name": "Jos Buttler",
+    "country": "England",
+    "image": "https://i.imgpost.net/2025/03/05/oezs.png",
+    "role": "Wicketkeeper",
+    "battingBowlingType": "Right-hand bat / Right-arm medium",
+    "biddingPrice": 9500000
+  }
+]
