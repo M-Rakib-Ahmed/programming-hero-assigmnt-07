@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { CgProfile } from "react-icons/cg";
 import { FaFlag } from "react-icons/fa";
-const Avalibale = () => {
+const Avalibale = ({ addToBuyPlayer }) => {
    
     const [player, setPlayer]=useState([])
     useEffect(()=>{
@@ -11,7 +11,6 @@ const Avalibale = () => {
     },[])
     return (
         <div>
-            <h2>avaliable </h2>
            <div className="grid grid-cols-1 
           mt-10 lg:grid-cols-3 ml-12 gap-8">
                 {
@@ -36,7 +35,7 @@ const Avalibale = () => {
                                 <p className="text-lg font-medium">Batsman:{player.battingBowlingType}</p>
                              <div className="flex items-center justify-between">
                                     <p>Price${player.biddingPrice}</p>
-                                    <button className="btn bg-blue-500 text-white">Chosse Player</button>
+                                    <button onClick={() => addToBuyPlayer(player)} className="btn bg-blue-500 text-white">Chosse Player</button>
 
                              </div>
                                

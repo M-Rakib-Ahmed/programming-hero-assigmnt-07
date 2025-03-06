@@ -1,7 +1,7 @@
 import { MdMenu } from "react-icons/md";
 import logo from '../assets/banner.png'
 import doller from '../assets/doller.png'
-const Navbar = () => {
+const Navbar = ({ money }) => {
     const links = [
         <li>Home</li>,
         <li>fixture</li>,
@@ -11,8 +11,8 @@ const Navbar = () => {
     return (
       // navbar secton start
 
-      <div className="shadow-2xl">
-           <div className="navbar bg-base-100  w-11/12 mx-auto">
+      <div className="shadow-2xl ">
+        <div className="navbar bg-base-100 fixed top-0  fixed top-0 left-0 w-full backdrop-blur-md bg-white/20 border-b border-white/10 shadow-lg z-50">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -35,7 +35,7 @@ const Navbar = () => {
               {links}
             </ul>
     <div className="btn flex items-center">
-      <span>0Coin</span>
+     <span>{money}Coin</span>
       <img src={doller} alt="" />
     </div>
   </div>

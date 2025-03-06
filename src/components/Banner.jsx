@@ -1,7 +1,8 @@
+import { ToastContainer } from 'react-toastify';
 import batimg  from '../assets/batimage.png'
 
 
-const Banner = () => {
+const Banner = ({ handleAddToMoney }) => {
     return (
         <div>
             <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-blue-400 to-pink-400">
@@ -15,8 +16,11 @@ const Banner = () => {
                     </div>
                     <h1 className="text-3xl font-bold mb-4">Assemble Your Ultimate Dream 11 Cricket Team</h1>
                     <p className="text-lg mb-6">Beyond Boundaries Beyond Limits</p>
-                    <button className="bg-yellow-400 text-black font-bold py-2 px-6 rounded-xl hover:bg-yellow-300 transition">
+                    <button onClick={() => handleAddToMoney(10000000000)} className="bg-yellow-400 text-black font-bold py-2 px-6 rounded-xl hover:bg-yellow-300 transition cursor-pointer">
                         Claim Free Credit
+                      <div className='flex items-center justify-center text-center'>
+                            <ToastContainer></ToastContainer>
+                      </div>
                     </button>
                 </div>
             </div>  
