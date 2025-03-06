@@ -5,14 +5,14 @@ const Avalibale = ({ addToBuyPlayer }) => {
    
     const [player, setPlayer]=useState([])
     useEffect(()=>{
-        fetch('../../public/player.json')
+        fetch('player.json')
         .then(res=>res.json())
         .then(data => setPlayer(data))
     },[])
     return (
         <div>
            <div className="grid grid-cols-1 
-          mt-10 lg:grid-cols-3 ml-12 gap-8">
+          mt-10 lg:grid-cols-3 lg:ml-12 gap-8">
                 {
                     player.map(player => <div>
                         <div className="card bg-base-100 shadow-sm p-5 border text-gray-400">

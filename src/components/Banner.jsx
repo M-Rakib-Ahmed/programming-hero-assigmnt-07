@@ -5,7 +5,7 @@ import batimg  from '../assets/batimage.png'
 const Banner = ({ handleAddToMoney }) => {
     return (
         <div>
-            <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-blue-400 to-pink-400">
+            <div className="flex items-center justify-center min-h-screen bg-gradient-to-r from-blue-4 100 to-pink-100">
                 <div className="bg-black h-[400px] w-[1200px] text-white rounded-2xl shadow-2xl p-10 text-center ">
                     <div className="flex justify-center mb-4">
                         <img
