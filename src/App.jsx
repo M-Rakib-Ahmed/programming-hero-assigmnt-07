@@ -1,5 +1,6 @@
 import Avalibale from "./components/Avalibale";
 import Banner from "./components/Banner";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Selected from "./components/Selected";
 
@@ -12,6 +13,10 @@ const App = () => {
         <Avalibale></Avalibale>
         <Selected></Selected>
       </div>
+     <div>
+        <Footer ></Footer>
+        
+     </div>
     
     </div>
   );

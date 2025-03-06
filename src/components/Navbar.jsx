@@ -9,7 +9,9 @@ const Navbar = () => {
         <li>schedules</li>
     ]
     return (
-        <div className="shadow-2xl">
+      // navbar secton start
+
+      <div className="shadow-2xl">
            <div className="navbar bg-base-100  w-11/12 mx-auto">
   <div className="navbar-start">
     <div className="dropdown">
@@ -39,6 +41,7 @@ const Navbar = () => {
   </div>
 </div> 
         </div>
+      
     );
 };
 
